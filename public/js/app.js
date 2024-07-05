@@ -2240,7 +2240,8 @@ var render = function render() {
       outlined: "",
       dense: "",
       required: "",
-      rules: [_vm.rules.required]
+      rules: [_vm.rules.required],
+      max: "11"
     },
     model: {
       value: _vm.obj.contactnumber,

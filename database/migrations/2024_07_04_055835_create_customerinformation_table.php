@@ -18,7 +18,7 @@ class CreateCustomerinformationTable extends Migration
             $table->string('firstname');
             $table->string('lastname');
             $table->string('emailaddress')->unique();
-            $table->integer('contactnumber');
+            $table->string('contactnumber')->length(20);
             $table->string('created_by');
             $table->timestamps();
             $table->softDeletes();

@@ -16,7 +16,7 @@
                                <v-text-field v-model="obj.emailaddress" label="EMAIL ADDRESS :" outlined dense required
                                                     :rules="[rules.required]"></v-text-field>
                                <v-text-field v-model="obj.contactnumber" label="CONTACT NUMBER :" outlined dense required
-                                                    :rules="[rules.required]"></v-text-field>
+                                                    :rules="[rules.required]" max="11"></v-text-field>
                                     <v-btn block color="teal"  @click="addInformation()"
                                     :disabled="disabledButton"
                                     style="color:white">
