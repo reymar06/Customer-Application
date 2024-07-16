@@ -10,9 +10,4 @@ php artisan key:generate
 php artisan migrate
 ```
 
-Once you've cloned the project, use the `cd Customer-Application` command to navigate to the application's directory.
-```
-git status
-git add
-git commit
-```
+
