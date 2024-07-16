@@ -1,5 +1,3 @@
-**Customer-Information**
-
 To clone the project using Git, open the command prompt (CMD) and navigate to your desktop using the `cd desktop` command. Then, use the appropriate Git command to clone the project. 
 
 ```
